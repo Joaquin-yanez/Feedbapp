@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Feedback Board Project.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was done using React-Typescript
 
 ## Available Scripts
 
