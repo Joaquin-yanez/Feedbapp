@@ -3,3 +3,7 @@ export interface IFeedbackItem {
     rating: number;
     text: string;
 }
+
+export interface Children {
+    children: JSX.Element[];
+}

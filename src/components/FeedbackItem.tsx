@@ -1,17 +1,24 @@
 import { IFeedbackItem } from '../types';
+import { FaTimes } from 'react-icons/fa';
+import Card from './Card';
 
 interface FeedbackItemProps {
     feedbackItem: IFeedbackItem;
+    handleDelete: (id: number) => void;
 }
 
-const FeedbackItem = ({ feedbackItem }: FeedbackItemProps) => {
-    // First element holds the state and second one is used to update the state.
-
+const FeedbackItem = ({ feedbackItem, handleDelete }: FeedbackItemProps) => {
     return (
-        <div className='card'>
+        <Card>
             <div className='num-display'>{feedbackItem.rating}</div>
+            <button
+                onClick={() => handleDelete(feedbackItem.id)}
+                className='close'
+            >
+                <FaTimes color='purple' />
+            </button>
             <div className='text-display'>{feedbackItem.text}</div>
-        </div>
+        </Card>
     );
 };
 
