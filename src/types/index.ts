@@ -1,9 +1,9 @@
 export interface IFeedbackItem {
-    id: number;
+    id: number | string;
     rating: number;
     text: string;
 }
 
 export interface Children {
-    children: JSX.Element[];
+    children: JSX.Element | JSX.Element[];
 }
