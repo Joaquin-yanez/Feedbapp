@@ -4,7 +4,7 @@ import Card from './Card';
 
 interface FeedbackItemProps {
     feedbackItem: IFeedbackItem;
-    handleDelete: (id: number) => void;
+    handleDelete: (id: number | string) => void;
 }
 
 const FeedbackItem = ({ feedbackItem, handleDelete }: FeedbackItemProps) => {
