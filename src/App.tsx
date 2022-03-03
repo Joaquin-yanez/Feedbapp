@@ -5,6 +5,7 @@ import FeedbackList from './components/FeedbackList';
 import FeedbackData from './data/FeedbackData';
 import FeedbackForm from './components/FeedbackForm';
 import FeedbackStats from './components/FeedbackStats';
+import Copyright from './components/Copyright';
 
 // Render must return only one element. If we don't want a parent element we can use a fragment that is an empty tag <>
 
@@ -32,6 +33,7 @@ function App() {
                 />
                 {/* With && we can do if inline rendering and with ternary operation if-else inline rendering */}
             </div>
+            <Copyright />
         </>
     );
 }

@@ -15,7 +15,7 @@ const FeedbackItem = ({ feedbackItem, handleDelete }: FeedbackItemProps) => {
                 onClick={() => handleDelete(feedbackItem.id)}
                 className='close'
             >
-                <FaTimes color='purple' />
+                <FaTimes color='green' />
             </button>
             <div className='text-display'>{feedbackItem.text}</div>
         </Card>
