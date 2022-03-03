@@ -4,17 +4,17 @@ const FeedbackData: IFeedbackItem[] = [
     {
         id: 1,
         rating: 10,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. consequuntur vel vitae commodi alias voluptatem est voluptatum ipsa quae.'
+        text: 'This is so awesome, I wonder who developed such an amazing app.'
     },
     {
         id: 2,
         rating: 9,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. consequuntur vel vitae commodi alias voluptatem est voluptatum ipsa quae.'
+        text: 'My rating experience has never been better.'
     },
     {
         id: 3,
         rating: 8,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. consequuntur vel vitae commodi alias voluptatem est voluptatum ipsa quae.'
+        text: "I don't leave a higher rating because this app takes all my free time and now I'm single."
     }
 ];
 

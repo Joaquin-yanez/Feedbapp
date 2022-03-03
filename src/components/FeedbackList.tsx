@@ -8,7 +8,6 @@ interface FeedbackListProps {
 }
 
 const FeedbackList = ({ feedback, handleDelete }: FeedbackListProps) => {
-    console.log('feedback', feedback);
     return !feedback || feedback.length === 0 ? (
         <p>No Feedback Yet</p>
     ) : (
@@ -18,6 +17,7 @@ const FeedbackList = ({ feedback, handleDelete }: FeedbackListProps) => {
                     <div>
                         <motion.div
                             key={feedbackItem.id}
+                            transition={{ ease: 'easeOut', duration: 1 }}
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}

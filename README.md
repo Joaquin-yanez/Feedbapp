@@ -1,4 +1,4 @@
-# Feedback Board Project.
+# Rating Project.
 
 This project was done using React-Typescript
 
