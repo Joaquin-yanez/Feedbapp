@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Feedbapp/static/css/main.ba7b221a.css",
+    "main.js": "/Feedbapp/static/js/main.1ec74af2.js",
+    "index.html": "/Feedbapp/index.html",
+    "main.ba7b221a.css.map": "/Feedbapp/static/css/main.ba7b221a.css.map",
+    "main.1ec74af2.js.map": "/Feedbapp/static/js/main.1ec74af2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba7b221a.css",
+    "static/js/main.1ec74af2.js"
+  ]
+}
